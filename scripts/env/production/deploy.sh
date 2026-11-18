@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ==============================================================================
-# Script de Despliegue Automatizado para Producción (Vercel) - vzla.online
+# Script de Despliegue Automatizado para Producción (Vercel) - megalink.vzla.online
 # Ubicación: scripts/env/production/deploy.sh
 # ==============================================================================
 
@@ -85,7 +85,7 @@ cd "$PROJECT_ROOT"
 git config user.name "$GIT_NAME"
 git config user.email "$GIT_EMAIL"
 
-echo -e "${GREEN}🚀 Iniciando Despliegue a Producción (vzla.online - Vercel)${NC}"
+echo -e "${GREEN}🚀 Iniciando Despliegue a Producción (megalink.vzla.online - Vercel)${NC}"
 echo "======================================================================"
 echo -e "👤 Identidad oficial: ${CYAN}$GIT_NAME <$GIT_EMAIL>${NC}"
 
@@ -173,7 +173,7 @@ echo -e "\n${BLUE}🔄 Regresando automáticamente a la rama $SOURCE_BRANCH para
 git checkout "$SOURCE_BRANCH"
 git merge "$TARGET_BRANCH" --ff-only || true
 
-PROD_URL="https://megalink.vzla.online"
+PROD_URL="https://megalink.megalink.vzla.online"
 echo -e "\n${BLUE}🔍 Verificando URL de producción ($PROD_URL)...${NC}"
 HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$PROD_URL" --max-time 15 || echo "000")
 

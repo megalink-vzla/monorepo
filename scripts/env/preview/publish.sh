@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ==============================================================================
-# Script de Publicación para Preview (Vercel) - vzla.online (MegaMercado / RETIA)
+# Script de Publicación para Preview (Vercel) - megalink.vzla.online (MegaMercado / RETIA)
 # Ubicación: scripts/env/preview/publish.sh
 # ==============================================================================
 

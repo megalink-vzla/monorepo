@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ==============================================================================
-# Script de Publicación para Ramas Feature / Fix (Vercel) - vzla.online
+# Script de Publicación para Ramas Feature / Fix (Vercel) - megalink.vzla.online
 # Ubicación: scripts/env/preview/publish-feature.sh
 # ==============================================================================
 
