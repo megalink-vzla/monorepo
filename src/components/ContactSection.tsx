@@ -163,23 +163,14 @@ export function ContactSection({
 
             <div className="pt-6 border-t border-[#D8D8D8] space-y-3.5 text-sm text-[#1C2541]">
               <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-[#2563EB] shrink-0" aria-hidden="true" />
-                <a
-                  href="mailto:megalink@megamercado.io"
-                  className="hover:text-[#2563EB] hover:underline transition-colors"
-                >
-                  megalink@megamercado.io
-                </a>
-              </div>
-              <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-[#2563EB] shrink-0" aria-hidden="true" />
                 <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                   <span className="font-semibold text-xs bg-[#E2E8F0] px-1.5 py-0.5 rounded text-[#0F172A]">VEN</span>
                   <a
-                    href="tel:+584122799653"
+                    href="tel:+584145705380"
                     className="tabular-nums hover:text-[#2563EB] hover:underline transition-colors"
                   >
-                    +58 412 279 9653
+                    +58 414 570 5380
                   </a>
                   <span className="text-[#94A3B8]">·</span>
                   <span className="font-semibold text-xs bg-[#E2E8F0] px-1.5 py-0.5 rounded text-[#0F172A]">COL</span>
@@ -216,8 +207,8 @@ export function ContactSection({
 
                 <p className="text-sm sm:text-[15px] text-[#1C2541]/85 leading-relaxed">
                   Gracias, <span className="font-semibold text-[#111827]">{form.fullName}</span>. Hemos recibido los detalles para{' '}
-                  <span className="font-semibold text-[#111827]">{form.company}</span> y enviaremos la confirmación inicial al correo{' '}
-                  <span className="font-medium text-[#111827]">{form.email}</span> para coordinar la visita técnica.
+                  <span className="font-semibold text-[#111827]">{form.company}</span> y un especialista de ingeniería se comunicará vía telefónica al{' '}
+                  <span className="font-semibold text-[#111827]">{form.phone}</span> para coordinar la visita técnica.
                 </p>
 
                 <div className="bg-[#F1F5F9] border border-[#D8D8D8] rounded-lg p-4 text-xs sm:text-sm text-[#1C2541] space-y-1">
@@ -302,60 +293,31 @@ export function ContactSection({
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <div>
-                    <label
-                      htmlFor="quote-email"
-                      className="block text-sm font-semibold text-[#111827] mb-1.5"
-                    >
-                      Correo electrónico
-                    </label>
-                    <input
-                      id="quote-email"
-                      name="email"
-                      type="email"
-                      value={form.email}
-                      onChange={(e) => handleChange('email', e.target.value)}
-                      placeholder="nombre@empresa.com"
-                      aria-invalid={Boolean(errors.email)}
-                      aria-describedby={errors.email ? 'error-email' : undefined}
-                      className={`w-full px-3.5 py-2.5 text-sm rounded-lg border bg-white text-[#111827] focus:outline-none focus:ring-2 focus:ring-[#2563EB]/25 focus:border-[#2563EB] ${
-                        errors.email ? 'border-red-600' : 'border-[#D8D8D8]'
-                      }`}
-                    />
-                    {errors.email && (
-                      <p id="error-email" className="mt-1.5 text-xs text-red-700 font-medium">
-                        {errors.email}
-                      </p>
-                    )}
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="quote-phone"
-                      className="block text-sm font-semibold text-[#111827] mb-1.5"
-                    >
-                      Teléfono de contacto
-                    </label>
-                    <input
-                      id="quote-phone"
-                      name="phone"
-                      type="tel"
-                      value={form.phone}
-                      onChange={(e) => handleChange('phone', e.target.value)}
-                      placeholder="+58 412 279 9653 / +57 300 195 0664"
-                      aria-invalid={Boolean(errors.phone)}
-                      aria-describedby={errors.phone ? 'error-phone' : undefined}
-                      className={`w-full px-3.5 py-2.5 text-sm rounded-lg border bg-white text-[#111827] focus:outline-none focus:ring-2 focus:ring-[#2563EB]/25 focus:border-[#2563EB] ${
-                        errors.phone ? 'border-red-600' : 'border-[#D8D8D8]'
-                      }`}
-                    />
-                    {errors.phone && (
-                      <p id="error-phone" className="mt-1.5 text-xs text-red-700 font-medium">
-                        {errors.phone}
-                      </p>
-                    )}
-                  </div>
+                <div>
+                  <label
+                    htmlFor="quote-phone"
+                    className="block text-sm font-semibold text-[#111827] mb-1.5"
+                  >
+                    Teléfono de contacto (Llamada / WhatsApp)
+                  </label>
+                  <input
+                    id="quote-phone"
+                    name="phone"
+                    type="tel"
+                    value={form.phone}
+                    onChange={(e) => handleChange('phone', e.target.value)}
+                    placeholder="+58 414 570 5380 / +57 300 195 0664"
+                    aria-invalid={Boolean(errors.phone)}
+                    aria-describedby={errors.phone ? 'error-phone' : undefined}
+                    className={`w-full px-3.5 py-2.5 text-sm rounded-lg border bg-white text-[#111827] focus:outline-none focus:ring-2 focus:ring-[#2563EB]/25 focus:border-[#2563EB] ${
+                      errors.phone ? 'border-red-600' : 'border-[#D8D8D8]'
+                    }`}
+                  />
+                  {errors.phone && (
+                    <p id="error-phone" className="mt-1.5 text-xs text-red-700 font-medium">
+                      {errors.phone}
+                    </p>
+                  )}
                 </div>
 
                 <div>

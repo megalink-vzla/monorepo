@@ -15,7 +15,10 @@ export const quoteSubmissionSchema = z.object({
     .string()
     .trim()
     .email('Formato de correo electrónico inválido')
-    .toLowerCase(),
+    .toLowerCase()
+    .optional()
+    .or(z.literal(''))
+    .default(''),
   phone: z
     .string()
     .trim()

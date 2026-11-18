@@ -29,7 +29,7 @@ const MegalinkLeadSchema = new Schema<IMegalinkLead>(
     reference: { type: String, required: true, unique: true, index: true },
     fullName: { type: String, required: true, trim: true },
     company: { type: String, required: true, trim: true },
-    email: { type: String, required: true, trim: true, lowercase: true },
+    email: { type: String, default: '', trim: true, lowercase: true },
     phone: { type: String, required: true, trim: true },
     service: { type: String, required: true },
     message: { type: String, default: '' },

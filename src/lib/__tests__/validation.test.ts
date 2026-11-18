@@ -7,8 +7,7 @@ test('quoteSubmissionSchema valida datos correctos', () => {
   const valid = {
     fullName: 'Ing. Carlos Mendoza',
     company: 'Distribuidora Central C.A.',
-    email: 'carlos.mendoza@empresa.com',
-    phone: '0414-1234567',
+    phone: '0414-5705380',
     service: 'cctv',
     message: 'Requerimos 16 cámaras IP para galpón industrial.',
   };
@@ -39,8 +38,8 @@ test('quoteSubmissionSchema rechaza correos inválidos y nombres cortos', () => 
 });
 
 test('normalizePhone normaliza números venezolanos y colombianos a formato E.164', () => {
-  assert.equal(normalizePhone('0412-2799653'), '+584122799653');
-  assert.equal(normalizePhone('+58 412 279 9653'), '+584122799653');
+  assert.equal(normalizePhone('0414-5705380'), '+584145705380');
+  assert.equal(normalizePhone('+58 414 570 5380'), '+584145705380');
   assert.equal(normalizePhone('+57 300 195 0664'), '+573001950664');
   assert.equal(normalizePhone('3001950664'), '+573001950664');
   assert.equal(normalizePhone('573001950664'), '+573001950664');

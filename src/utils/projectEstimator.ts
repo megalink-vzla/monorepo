@@ -92,9 +92,11 @@ export function validateQuoteForm(form: QuoteFormData): Record<string, string> {
   if (form.company.trim().length < 2) {
     errors.company = 'Indique el nombre de su empresa, institución o proyecto.';
   }
-  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailPattern.test(form.email.trim())) {
-    errors.email = 'Ingrese un correo electrónico corporativo o personal válido.';
+  if (form.email && form.email.trim().length > 0) {
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(form.email.trim())) {
+      errors.email = 'Ingrese un correo electrónico corporativo o personal válido.';
+    }
   }
   const digitsOnly = form.phone.replace(/\D/g, '');
   if (digitsOnly.length < 7) {

@@ -48,10 +48,10 @@ export function Navbar({ onRequestQuote }: NavbarProps) {
             </a>
           ))}
           <a
-            href="tel:+584122799653"
+            href="tel:+584145705380"
             className="hidden lg:inline-flex items-center text-xs font-semibold px-2.5 py-1 rounded bg-[#F1F5F9] text-[#0F172A] hover:bg-[#E2E8F0] transition-colors tabular-nums"
           >
-            VEN +58 412 279 9653
+            VEN +58 414 570 5380
           </a>
         </nav>
 

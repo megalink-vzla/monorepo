@@ -14,16 +14,10 @@ export function Footer() {
               Ingeniería formal en videovigilancia CCTV/IP, redes de datos certificadas y conectividad inalámbrica empresarial de alta densidad.
             </p>
             <div className="pt-2 space-y-1.5 text-xs text-[#94A3B8]">
-              <p>
-                Email:{' '}
-                <a href="mailto:megalink@megamercado.io" className="text-white hover:text-[#06B6D4] transition-colors">
-                  megalink@megamercado.io
-                </a>
-              </p>
               <p className="tabular-nums">
                 <span className="text-white font-medium">VEN:</span>{' '}
-                <a href="tel:+584122799653" className="hover:text-[#06B6D4] transition-colors">
-                  +58 412 279 9653
+                <a href="tel:+584145705380" className="hover:text-[#06B6D4] transition-colors">
+                  +58 414 570 5380
                 </a>{' '}
                 · <span className="text-white font-medium">COL:</span>{' '}
                 <a href="tel:+573001950664" className="hover:text-[#06B6D4] transition-colors">

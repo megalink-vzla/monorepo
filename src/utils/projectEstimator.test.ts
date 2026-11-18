@@ -68,8 +68,8 @@ test('validateQuoteForm catches missing fields and accepts valid corporate inqui
   const valid: QuoteFormData = {
     fullName: 'Carlos Mendoza',
     company: 'Logística Andina S.A.',
-    email: 'cmendoza@logistica.com',
-    phone: '+57 300 555 0192',
+    email: '',
+    phone: '+58 414 570 5380',
     service: 'redes',
     message: 'Requerimos certificación de puntos Cat6A y organización de rack principal.',
   };
