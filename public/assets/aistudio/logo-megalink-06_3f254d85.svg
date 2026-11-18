@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010.94 258.95">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-size: 168.6px;
+        font-style: italic;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        font-family: GothamRounded-BookItalic, 'Gotham Rounded';
+      }
+
+      .cls-1, .cls-3 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-1, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke: #111827;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #111827;
+      }
+
+      .cls-2, .cls-5 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-9 {
+        opacity: .58;
+      }
+
+      .cls-9, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-6, .cls-7, .cls-8 {
+        font-family: GothamRounded-BoldItalic, 'Gotham Rounded';
+        font-weight: 700;
+      }
+
+      .cls-10 {
+        fill: #b7b7b7;
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        opacity: .8;
+      }
+
+      .cls-11 {
+        fill: #efefef;
+      }
+
+      .cls-13 {
+        fill: #2563eb;
+      }
+
+      .cls-6, .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-12 {
+        fill: #d8d8d8;
+      }
+    </style>
+  </defs>
+  <path class="cls-13" d="M218,0H27.96C12.58,0,0,12.58,0,27.96v190.04c0,15.38,12.58,27.96,27.96,27.96h190.04c15.38,0,27.96-12.58,27.96-27.96V27.96c0-15.38-12.58-27.96-27.96-27.96Z"/>
+  <g>
+    <polygon class="cls-12" points="35.26 182.45 74.66 205.2 74.66 141.86 122.98 169.76 122.98 118.11 35.26 67.47 35.26 182.45"/>
+    <polygon class="cls-11" points="210.7 182.45 171.3 205.2 171.3 141.86 122.98 169.76 122.98 118.11 210.7 67.47 210.7 182.45"/>
+    <polygon class="cls-10" points="74.66 205.2 111.28 184.02 111.28 163 74.66 141.86 74.66 205.2"/>
+    <polygon class="cls-10" points="171.3 205.2 134.68 184.02 134.68 163 171.3 141.86 171.3 205.2"/>
+    <path class="cls-9" d="M122.98,118.11l20.91-12.07c-4.18-7.22-11.97-12.08-20.91-12.08s-16.74,4.86-20.91,12.08l20.91,12.07Z"/>
+    <path class="cls-9" d="M93.07,100.84c5.98-10.32,17.15-17.29,29.91-17.29s23.93,6.96,29.91,17.29l6.58-3.8c-7.3-12.59-20.92-21.09-36.49-21.09s-29.19,8.49-36.49,21.09l6.58,3.8Z"/>
+    <path class="cls-9" d="M78.05,92.17c8.99-15.51,25.76-25.97,44.93-25.97s35.95,10.46,44.93,25.97l6.58-3.8c-10.3-17.78-29.53-29.77-51.51-29.77s-41.21,11.99-51.51,29.77l6.58,3.8Z"/>
+    <path class="cls-9" d="M62.61,83.26c12.08-20.84,34.61-34.89,60.37-34.89s48.3,14.05,60.37,34.89l6.58-3.8c-13.39-23.11-38.38-38.69-66.95-38.69s-53.56,15.59-66.95,38.69l6.58,3.8Z"/>
+  </g>
+  <g>
+    <text class="cls-1" transform="translate(678.97 188.98) scale(1 .99) skewX(-8.82)"><tspan x="0" y="0">L</tspan></text>
+    <text class="cls-5" transform="translate(772.88 188.98) scale(.7) skewX(-8.82)"><tspan x="0" y="0">INK</tspan></text>
+    <text class="cls-6" transform="translate(301.95 188.98) scale(.99) skewX(-8.93)"><tspan x="0" y="0">M</tspan></text>
+    <text class="cls-4" transform="translate(437.57 188.98) scale(.69) skewX(-8.93)"><tspan class="cls-15" x="0" y="0">E</tspan><tspan class="cls-14" x="100.33" y="0">G</tspan><tspan x="218.4" y="0">A</tspan></text>
+    <text class="cls-7" transform="translate(301.95 188.98) scale(.99) skewX(-8.93)"><tspan x="0" y="0">M</tspan></text>
+    <text class="cls-8" transform="translate(437.57 188.98) scale(.69) skewX(-8.93)"><tspan class="cls-15" x="0" y="0">E</tspan><tspan class="cls-14" x="100.33" y="0">G</tspan><tspan x="218.4" y="0">A</tspan></text>
+    <text class="cls-3" transform="translate(678.97 188.98) scale(1 .99) skewX(-8.82)"><tspan x="0" y="0">L</tspan></text>
+    <text class="cls-2" transform="translate(772.88 188.98) scale(.7) skewX(-8.82)"><tspan x="0" y="0">INK</tspan></text>
+  </g>
+</svg>

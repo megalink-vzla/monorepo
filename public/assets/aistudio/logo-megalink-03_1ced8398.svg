@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 529.16 529.16">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: GothamRounded-BoldItalic, 'Gotham Rounded';
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-size: 120px;
+        font-style: italic;
+      }
+
+      .cls-1, .cls-3 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-1, .cls-4, .cls-7, .cls-8 {
+        fill: none;
+        stroke: #111827;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-9, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-9 {
+        opacity: .58;
+      }
+
+      .cls-10 {
+        fill: #b7b7b7;
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        opacity: .8;
+      }
+
+      .cls-11 {
+        fill: #efefef;
+      }
+
+      .cls-13 {
+        fill: #2563eb;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #111827;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-family: GothamRounded-BookItalic, 'Gotham Rounded';
+      }
+
+      .cls-5, .cls-8 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-6, .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-12 {
+        fill: #d8d8d8;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <text class="cls-7" transform="translate(284.56 460.97) scale(1 .99) skewX(-8.82)"><tspan x="0" y="0">L</tspan></text>
+    <text class="cls-8" transform="translate(351.4 460.97) scale(.7) skewX(-8.82)"><tspan x="0" y="0">INK</tspan></text>
+    <text class="cls-1" transform="translate(16.21 460.97) scale(.99) skewX(-8.93)"><tspan x="0" y="0">M</tspan></text>
+    <text class="cls-4" transform="translate(112.74 460.97) scale(.69) skewX(-8.93)"><tspan class="cls-15" x="0" y="0">E</tspan><tspan class="cls-14" x="71.41" y="0">G</tspan><tspan x="155.45" y="0">A</tspan></text>
+    <text class="cls-3" transform="translate(16.21 460.97) scale(.99) skewX(-8.93)"><tspan x="0" y="0">M</tspan></text>
+    <text class="cls-2" transform="translate(112.74 460.97) scale(.69) skewX(-8.93)"><tspan class="cls-15" x="0" y="0">E</tspan><tspan class="cls-14" x="71.41" y="0">G</tspan><tspan x="155.45" y="0">A</tspan></text>
+    <text class="cls-6" transform="translate(284.56 460.97) scale(1 .99) skewX(-8.82)"><tspan x="0" y="0">L</tspan></text>
+    <text class="cls-5" transform="translate(351.4 460.97) scale(.7) skewX(-8.82)"><tspan x="0" y="0">INK</tspan></text>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <path class="cls-13" d="M364.62,102.31h-200.07c-16.19,0-29.44,13.25-29.44,29.44v200.07c0,16.19,13.25,29.44,29.44,29.44h200.07c16.19,0,29.44-13.25,29.44-29.44v-200.07c0-16.19-13.25-29.44-29.44-29.44Z"/>
+    <g>
+      <polygon class="cls-12" points="172.23 294.39 213.71 318.34 213.71 251.66 264.58 281.03 264.58 226.66 172.23 173.34 172.23 294.39"/>
+      <polygon class="cls-11" points="356.93 294.39 315.45 318.34 315.45 251.66 264.58 281.03 264.58 226.66 356.93 173.34 356.93 294.39"/>
+      <polygon class="cls-10" points="213.71 318.34 252.26 296.05 252.26 273.92 213.71 251.66 213.71 318.34"/>
+      <polygon class="cls-10" points="315.45 318.34 276.9 296.05 276.9 273.92 315.45 251.66 315.45 318.34"/>
+      <path class="cls-9" d="M264.58,226.66l22.02-12.71c-4.4-7.6-12.61-12.71-22.02-12.71s-17.62,5.12-22.02,12.71l22.02,12.71Z"/>
+      <path class="cls-9" d="M233.09,208.48c6.3-10.87,18.05-18.2,31.49-18.2s25.19,7.33,31.49,18.2l6.92-4c-7.68-13.26-22.02-22.2-38.41-22.2s-30.73,8.94-38.41,22.2l6.92,4Z"/>
+      <path class="cls-9" d="M217.28,199.35c9.46-16.33,27.12-27.34,47.31-27.34s37.84,11.01,47.31,27.34l6.92-4c-10.85-18.72-31.09-31.34-54.23-31.34s-43.38,12.62-54.23,31.34l6.92,4Z"/>
+      <path class="cls-9" d="M201.02,189.97c12.71-21.93,36.43-36.73,63.56-36.73s50.85,14.8,63.56,36.73l6.92-4c-14.1-24.32-40.4-40.73-70.48-40.73s-56.39,16.41-70.48,40.73l6.92,4Z"/>
+    </g>
+  </g>
+</svg>
