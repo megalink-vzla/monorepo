@@ -41,10 +41,18 @@ export function normalizePhone(raw: string): string {
   if (digits.startsWith('+')) {
     return digits;
   }
+  // Colombia (+57)
+  if (digits.startsWith('57') && digits.length >= 12) {
+    return `+${digits}`;
+  }
+  if (digits.startsWith('3') && digits.length === 10) {
+    return `+57${digits}`;
+  }
+  // Venezuela (+58)
   if (digits.startsWith('0')) {
     return `+58${digits.slice(1)}`;
   }
-  if (digits.startsWith('58')) {
+  if (digits.startsWith('58') && digits.length >= 12) {
     return `+${digits}`;
   }
   return `+58${digits}`;

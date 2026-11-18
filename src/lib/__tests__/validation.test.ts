@@ -38,10 +38,12 @@ test('quoteSubmissionSchema rechaza correos inválidos y nombres cortos', () => 
   }
 });
 
-test('normalizePhone normaliza números venezolanos a formato E.164', () => {
-  assert.equal(normalizePhone('0414-1234567'), '+584141234567');
-  assert.equal(normalizePhone('+58 412 9876543'), '+584129876543');
-  assert.equal(normalizePhone('584241112233'), '+584241112233');
+test('normalizePhone normaliza números venezolanos y colombianos a formato E.164', () => {
+  assert.equal(normalizePhone('0412-2799653'), '+584122799653');
+  assert.equal(normalizePhone('+58 412 279 9653'), '+584122799653');
+  assert.equal(normalizePhone('+57 300 195 0664'), '+573001950664');
+  assert.equal(normalizePhone('3001950664'), '+573001950664');
+  assert.equal(normalizePhone('573001950664'), '+573001950664');
 });
 
 test('signHmacSha256 genera firma HMAC válida', () => {

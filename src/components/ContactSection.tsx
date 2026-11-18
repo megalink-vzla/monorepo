@@ -161,18 +161,39 @@ export function ContactSection({
               ))}
             </div>
 
-            <div className="pt-6 border-t border-[#D8D8D8] space-y-3 text-sm text-[#1C2541]">
+            <div className="pt-6 border-t border-[#D8D8D8] space-y-3.5 text-sm text-[#1C2541]">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[#2563EB] shrink-0" aria-hidden="true" />
-                <span>proyectos@megalink.com.co</span>
+                <a
+                  href="mailto:megalink@megamercado.io"
+                  className="hover:text-[#2563EB] hover:underline transition-colors"
+                >
+                  megalink@megamercado.io
+                </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-[#2563EB] shrink-0" aria-hidden="true" />
-                <span className="tabular-nums">+57 (601) 555 0148 · Lun – Vie 8:00 a 18:00</span>
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <span className="font-semibold text-xs bg-[#E2E8F0] px-1.5 py-0.5 rounded text-[#0F172A]">VEN</span>
+                  <a
+                    href="tel:+584122799653"
+                    className="tabular-nums hover:text-[#2563EB] hover:underline transition-colors"
+                  >
+                    +58 412 279 9653
+                  </a>
+                  <span className="text-[#94A3B8]">·</span>
+                  <span className="font-semibold text-xs bg-[#E2E8F0] px-1.5 py-0.5 rounded text-[#0F172A]">COL</span>
+                  <a
+                    href="tel:+573001950664"
+                    className="tabular-nums hover:text-[#2563EB] hover:underline transition-colors"
+                  >
+                    +57 300 195 0664
+                  </a>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-[#2563EB] shrink-0" aria-hidden="true" />
-                <span>Cobertura empresarial en sedes urbanas, parques industriales y campus</span>
+                <span>Cobertura empresarial binacional (Venezuela & Colombia)</span>
               </div>
             </div>
           </div>
@@ -322,7 +343,7 @@ export function ContactSection({
                       type="tel"
                       value={form.phone}
                       onChange={(e) => handleChange('phone', e.target.value)}
-                      placeholder="+57 300 555 0192"
+                      placeholder="+58 412 279 9653 / +57 300 195 0664"
                       aria-invalid={Boolean(errors.phone)}
                       aria-describedby={errors.phone ? 'error-phone' : undefined}
                       className={`w-full px-3.5 py-2.5 text-sm rounded-lg border bg-white text-[#111827] focus:outline-none focus:ring-2 focus:ring-[#2563EB]/25 focus:border-[#2563EB] ${
